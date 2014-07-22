@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">        
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <title>Schnitzeljagd 2015</title>
+    
+    <%= stylesheet_link_tag "bootstrap.min", "docs.min", "my"%>
+    <%= javascript_include_tag  "jquery.min" %>
+    <%= javascript_include_tag  "bootstrap.min" %>
+    <%= javascript_include_tag  "my" %>
+  </head>
+  
+  <body data-spy="scroll" data-target=".bs-docs-sidebar">
+    <header class="navbar navbar-fixed-top navbar-default " role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Schieferschnipseljagd 2015</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li id="index"><a href="index.html">Event</a></li>
+            <li id="strecke"><a href="umsetzung.html">Strecke</a></li>
+            <li id="anmeldung"><a href="unterstuetzung.html">Anmeldung</a></li>
+            <li id="kontakt"><a href="vorstand.html">Kontakt</a></li>
+            <li id="anfahrt"><a href="kontakt.html">Anfahrt</a></li>
+            <li id="impressum"><a href="impressum.html">Impressum</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <!--header class="jumbotron subhead">
+      <div class="container">
+        <img src="/images/wappen_small.jpg">
+      </div>
+    </header-->
+
+    <%= yield %>
+
+    <footer class="bs-docs-footer" role="contentinfo">
+      <p>Schnitzeljagd 2015</p>
+      <p>
+        <a href = "/kontakt.html"><i class="icon-user"></i> <u>Kontakt</u><span class="divider"> | </span>
+        <a href = "/impressum.html"><i class="icon-comment"></i> <u>Impressum</u><span class="divider"> | </span>
+        <a href="mailto:schnitzeljagd@bergwerk-fell.de"><i class="icon-envelope"></i> <u>schnitzeljagd@bergwerk-fell.de</u></a><span class="divider">
+      </p>
+    </footer>
+  </body>
+
+  <a href="#" class="scrollup">Scroll</a>
+  <script type="text/javascript">
+    $(document).ready(function(){ 
+        $(window).scroll(function(){
+            if ($(this).scrollTop() > 100) {
+                $('.scrollup').fadeIn();
+            } else {
+                $('.scrollup').fadeOut();
+            }
+        }); 
+ 
+        $('.scrollup').click(function(){
+            $("html, body").animate({ scrollTop: 0 }, 600);
+            return false;
+        });
+    });
+  </script>
+</html>
