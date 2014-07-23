@@ -1,0 +1,701 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"resu",
+				"result_swift"
+			],
+			[
+				"result_aar",
+				"result_array_last"
+			],
+			[
+				"running",
+				"running_replications_pw"
+			],
+			[
+				"dail",
+				"daily_processed"
+			],
+			[
+				"resul",
+				"result_buy"
+			],
+			[
+				"pa",
+				"pain001"
+			],
+			[
+				"cam",
+				"camt054_status"
+			],
+			[
+				"ca",
+				"camt054_status"
+			],
+			[
+				"pain",
+				"pain008_status"
+			],
+			[
+				"camt",
+				"camt_054_status"
+			],
+			[
+				"result",
+				"result_camt_054"
+			],
+			[
+				"status",
+				"statuschecker_prd"
+			],
+			[
+				"check",
+				"checkers_sit"
+			],
+			[
+				"checke",
+				"checkers_uat"
+			],
+			[
+				"chec",
+				"checkers"
+			],
+			[
+				"luxitwebd830",
+				"luxitwebd8302"
+			],
+			[
+				"luxita",
+				"luxitappd8209"
+			],
+			[
+				"luxitappd",
+				"luxitappd8206"
+			],
+			[
+				"rsult",
+				"result_sums"
+			],
+			[
+				"result_last",
+				"result_last_6"
+			],
+			[
+				"reus",
+				"result_last_6"
+			],
+			[
+				"iks",
+				"iks_lux1"
+			],
+			[
+				"ik",
+				"iks_lux1"
+			],
+			[
+				"result_last_",
+				"result_last_6_backend"
+			],
+			[
+				"ad",
+				"ad_groups"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "Hi,\n\ndas hat einfach technische Gründe.\nEvtl. wurde die 4MB Grenze überschritten, weil ein neuer Fonds angelegt wurde oder es hat sich eine Übersetzung geändert usw.\nDas kann man weder vorab prüfen nocht sonstwie kontrollieren.",
+			"settings":
+			{
+				"buffer_size": 227,
+				"line_ending": "Windows",
+				"name": "Hi,"
+			}
+		},
+		{
+			"file": "source/index.html.erb",
+			"settings":
+			{
+				"buffer_size": 4827,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/strecke.html.erb",
+			"settings":
+			{
+				"buffer_size": 2265,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "source/ablauf.html.erb",
+			"settings":
+			{
+				"buffer_size": 1363,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "source/anmeldung.html.erb",
+			"settings":
+			{
+				"buffer_size": 4085,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/layouts/layout.erb",
+			"settings":
+			{
+				"buffer_size": 3078,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 311.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 120.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Projects/ruby/Schnitzeljagd/source/ablauf.html.erb",
+		"/C/Projects/ruby/Schnitzeljagd/source/strecke.html.erb",
+		"/C/Projects/ruby/Schnitzeljagd/source/index.html.erb",
+		"/C/Projects/ruby/Schnitzeljagd/source/layouts/layout.erb",
+		"/C/Projects/ruby/Schnitzeljagd/source/anmeldung.html.erb",
+		"/C/Projects/ruby/Schnitzeljagd/source/stylesheets/my.css",
+		"//LUXSHFSDWSP9003/user$/schmrol/config/Desktop/DWS.B2B.IAM.Transfer.NOM.Binding.PROD.xml",
+		"//LUXSHFSDWSP9003/user$/schmrol/config/Desktop/01_IAM2000_DBB2B_ALTER_PCAMT_ST_PollGetData.sql",
+		"/T/Schmitt/Migration_3-24_SEPA/03_IAM2000_DBB2B_CREATE_TCAMT_054_IBANGroup.sql",
+		"/T/Schmitt/Migration_3-24_SEPA/04_IAM2000_DBB2B_INSERT_TCAMT_054_IBANGroup.sql",
+		"//LUXSHFSDWSP9003/user$/schmrol/config/Desktop/01_IAM2000_DBB2B_ALTER_PCAMT_ST_Poll.sql",
+		"//LUXSHFSDWSP9003/user$/schmrol/config/Desktop/Msg/setr.012.001.03.xml",
+		"//LUXSHFSDWSP9003/user$/schmrol/config/Desktop/Msg/setr.006.001.03.xml",
+		"//LUXPISPS14/prod_shs_b2b$/Reports/03/SK024B.39448.000",
+		"//LUXPISPS14/prod_shs_b2b$/Reports/03/SK024B.39446.000",
+		"//LUXPISPS14/prod_shs_b2b$/Reports/03/SK024B.20601.000",
+		"//LUXPISPS14/prod_shs_b2b$/Reports/03/SK024B.20603.000",
+		"//LUXSHFSDWSP9003/user$/schmrol/config/Desktop/testliste5.txt",
+		"/C/Projects/ruby/BigBrother/app/helpers/user_helper.rb",
+		"/C/Projects/ruby/BigBrother/app/views/dashboards/_failed_swift_orders.html.erb",
+		"/C/Projects/ruby/BigBrother/app/views/dashboards/_running_replications.html.erb",
+		"/C/Projects/ruby/BigBrother/app/views/dashboards/_avg_call_duration_pw.erb",
+		"/C/Projects/ruby/BigBrother/app/models/order.rb",
+		"/C/Projects/ruby/BigBrother/Gemfile",
+		"/C/Projects/ruby/BigBrother/app/helpers/statistic_helper.rb",
+		"/C/Projects/ruby/BigBrother/app/helpers/dashboard_helper.rb",
+		"/C/Projects/ruby/BigBrother/app/assets/javascripts/application.js",
+		"/C/Projects/ruby/BigBrother/app/views/dashboards/_coop_rejected.html.erb",
+		"/C/Projects/ruby/BigBrother/config/application.rb",
+		"/C/Projects/ruby/BigBrother/app/views/dashboards/refresh_running_replications.js.erb",
+		"/C/Projects/ruby/BigBrother/app/models/dashboard.rb",
+		"/C/Projects/ruby/BigBrother/app/controllers/dashboards_controller.rb",
+		"/C/Projects/ruby/BigBrother/log/development.log",
+		"/C/Projects/ruby/BigBrother/config/database.yml",
+		"/C/Users/schmrol/AppData/Roaming/Sublime Text 3/Packages/RuboCop/Default (Windows).sublime-keymap",
+		"/C/Projects/ruby/BigBrother/app/helpers/docimport_helper.rb",
+		"/C/Projects/ruby/BigBrother/app/views/docimport/todays_statistic.html.erb",
+		"/C/Projects/ruby/BigBrother/app/models/docimport.rb",
+		"/C/Projects/ruby/BigBrother/app/controllers/docimport_controller.rb",
+		"/C/Projects/ruby/BigBrother/app/views/docimport/todays_statistic_params.html.erb",
+		"/C/Projects/ruby/BigBrother/app/helpers/application_helper.rb",
+		"/C/Projects/ruby/BigBrother/config/routes.rb",
+		"/C/Projects/ruby/BigBrother/app/models/statistic.rb",
+		"/C/Projects/ruby/BigBrother/app/controllers/statistic_controller.rb",
+		"/C/Projects/ruby/BigBrother/app/views/statistic/ddo_transactions.html.erb",
+		"/C/Projects/ruby/BigBrother/app/views/dashboards/_sessions_last_6.html.erb",
+		"/C/Projects/ruby/BigBrother/app/helpers/status_helper.rb",
+		"/C/Projects/ruby/BigBrother/app/views/dashboards/_batch_jobs.html.erb",
+		"/C/Projects/ruby/BigBrother/app/views/statistic/params_ddo_trans.erb",
+		"/C/Projects/ruby/BigBrother/app/views/statistic/params_trans_ddo.html.erb",
+		"/C/Projects/ruby/BigBrother/app/views/dashboards/_sepa.html.erb",
+		"/C/Projects/ruby/BigBrother/app/views/dashboards/_order_confirmations.html.erb",
+		"/C/Projects/ruby/BigBrother/app/models/status.rb",
+		"/C/Projects/ruby/BigBrother/app/models/tracking.rb",
+		"/C/Projects/ruby/BigBrother/app/models/mt535.rb",
+		"/C/Projects/ruby/BigBrother/app/models/message.rb",
+		"/C/Projects/ruby/BigBrother/app/models/holding.rb",
+		"/C/Projects/ruby/BigBrother/app/views/dashboards/index.html.erb",
+		"/C/Projects/ruby/BigBrother/app/views/dashboards/refresh_sepa.js.erb",
+		"/C/Projects/ruby/BigBrother/app/views/dashboards/refres_sepa.js.erb",
+		"/C/Projects/ruby/BigBrother/app/views/status/loadbalancer.html.erb",
+		"/C/Projects/ruby/BigBrother/app/controllers/status_controller.rb",
+		"/C/Projects/ruby/BigBrother/config/torquebox.yml",
+		"/C/Projects/ruby/BigBrother/app/views/dashboards/refresh_order_confirmations.js.erb",
+		"/C/Temp/purecss/index.html",
+		"/C/Projects/ruby/BigBrother/app/views/dashboards/refresh_sessions_last_6.js.erb",
+		"/C/Projects/ruby/BigBrother/config/environment.rb",
+		"/C/Projects/ruby/BigBrother/config/environments/production.rb",
+		"/C/Projects/ruby/BigBrother/app/views/layouts/application.html.erb",
+		"/C/Projects/ruby/BigBrother/log/production.log",
+		"/C/Projects/ruby/BigBrother/app/views/dashboards/_docimport.html.erb",
+		"/C/Projects/ruby/BigBrother/app/views/dashboards/_web_logins.html.erb",
+		"/C/Projects/ruby/BigBrother/app/views/layouts/_sidebar.html.erb",
+		"/C/Projects/ruby/BigBrother/app/views/statistic/params_session.html.erb",
+		"/C/Projects/ruby/BigBrother/app/views/docimport/documentid.html.erb",
+		"/C/Projects/ruby/BigBrother/app/views/docimport/monthlystat.html.erb",
+		"/C/Projects/ruby/BigBrother/app/views/customer/customerid.html.erb",
+		"/C/Projects/ruby/BigBrother/app/views/log/fromto.html.erb",
+		"/C/Projects/ruby/BigBrother/app/views/log/logsessionid.html.erb",
+		"/C/Projects/ruby/BigBrother/app/views/log/today.html.erb",
+		"/C/Projects/ruby/BigBrother/app/views/log/customeriddate.html.erb",
+		"/C/Projects/ruby/BigBrother/app/views/tracking/search.html.erb",
+		"/C/Projects/ruby/BigBrother/app/views/tracking/issuerorderid.html.erb",
+		"/C/Projects/ruby/BigBrother/app/views/mt535/bic.html.erb",
+		"/C/Projects/ruby/BigBrother/app/views/mt535/customerid.html.erb",
+		"/C/Projects/ruby/BigBrother/app/views/holding/customerid.html.erb",
+		"/C/Projects/ruby/BigBrother/app/views/status/webserver.html.erb",
+		"/C/Projects/ruby/BigBrother/app/views/message/processguid.html.erb",
+		"/C/Projects/ruby/BigBrother/app/views/statistic/params_docimport.html.erb",
+		"/C/Projects/ruby/BigBrother/app/views/statistic/params_internet.html.erb",
+		"/C/Projects/ruby/BigBrother/app/views/order/entrydate.html.erb",
+		"/C/Projects/ruby/BigBrother/app/views/order/priceday.html.erb",
+		"/C/Projects/ruby/BigBrother/app/views/statistic/geo.html.erb",
+		"/C/Projects/ruby/BigBrother/app/views/statistic/params_order.html.erb",
+		"/C/Projects/ruby/BigBrother/app/views/statistic/params_pw.html.erb",
+		"/C/Projects/ruby/BigBrother/app/views/order/issuerorderid.html.erb",
+		"/C/Projects/ruby/BigBrother/app/views/order/day.html.erb",
+		"/C/Projects/ruby/BigBrother/app/views/order/bicentrydate.html.erb",
+		"/C/Projects/ruby/BigBrother/app/views/dashboards/_web_state.html.erb",
+		"/C/Projects/ruby/BigBrother/app/views/dashboards/_biztalk.html.erb",
+		"/C/Projects/ruby/BigBrother/app/views/dashboards/_webserver_calls.html.erb",
+		"/C/Projects/ruby/BigBrother/app/views/dashboards/_status_loadbalancer.html.erb",
+		"/C/Projects/ruby/BigBrother/app/views/dashboards/_price_files.html.erb",
+		"/C/Projects/ruby/BigBrother/app/views/dashboards/_host_status.html.erb",
+		"/C/Projects/ruby/BigBrother/app/views/dashboards/_sql_jobs.html.erb",
+		"/C/Projects/ruby/BigBrother/app/assets/stylesheets/bootstrap.css",
+		"/C/Projects/ruby/BigBrother/app/views/sessions/new.html.erb",
+		"/C/Projects/ruby/BigBrother/app/views/sessions/not_allowed.html.erb",
+		"/C/Projects/ruby/BigBrother/app/views/dashboards/refresh_avg_call_duration_pw.js.erb",
+		"/C/Projects/ruby/BigBrother/app/views/statistic/order.html.erb",
+		"/C/Projects/ruby/BigBrother/app/views/dashboards/refresh_docimport.js.erb",
+		"/C/Projects/ruby/BigBrother/app/views/statistic/session.html.erb",
+		"/C/Projects/ruby/BigBrother/app/models/user.rb",
+		"/C/Projects/ruby/BigBrother/app/helpers/sessions_helper.rb",
+		"/C/Projects/ruby/BigBrother/app/controllers/order_controller.rb",
+		"/C/Projects/ruby/BigBrother/app/controllers/application_controller.rb",
+		"/C/Projects/ruby/BigBrother/app/controllers/sessions_controller.rb",
+		"/C/Java/torquebox-2.3.2/jboss/standalone/configuration/standalone.xml",
+		"/C/Projects/ruby/BigBrother/pw.txt"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"C:\\Projects\\ruby\\BigBrother\\app\\",
+			"C:\\Projects\\ruby\\BigBrother\\app\\models",
+			"C:\\Projects\\ruby\\BigBrother\\app\\",
+			"C:\\Projects\\ruby\\BigBrother\\app\\views",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"OnUnload",
+			"order",
+			"+++",
+			"repli",
+			"iam2000_pw_10_deve",
+			"iam2000_pw_10",
+			"iam2000_pw_11",
+			"IAM2000_PW_24",
+			"iam2000_db_pw",
+			"][\"",
+			"running_replications_pw",
+			"FOUNDXXXX",
+			"replications",
+			"replicat",
+			"error",
+			"series:",
+			"statistic_paramspw",
+			"AVG_CALL_DURATION_BACKEND_PW",
+			"].",
+			"://luxshdbdws19005:1356;databaseName=IAM2000_DBPartner",
+			"IAM2000_DBPin_",
+			"_PW_",
+			"_PW_92",
+			"://luxshdbdws29005:1470;databaseName=IAM2000_DBPartner_08",
+			"://luxshdbdws29005:1470;databaseName=IAM2000_DBPartner_09",
+			"://luxshdbdws29005:1470;databaseName=IAM2000_DBPartner_03",
+			"://luxshdbdws19005:1356;databaseName=IAM2000_DBPartner_10",
+			"://luxshdbdws19005:1356;databaseName=IAM2000_DBPartner_01",
+			"strftime",
+			"class",
+			"strftime",
+			"#96A61F",
+			"96a61f",
+			"prepare_sessions_last_6",
+			"prepare_avg_call_duration_pw",
+			"_development",
+			"pool: 1000",
+			"com.microsoft.sqlserver.jdbc.SQLServerDriver",
+			";integratedSecurity=true;",
+			";databaseName=",
+			"jdbc:sqlserver://",
+			"[IAM2000_DBLog]",
+			"refresh_batchjob",
+			"_development",
+			"isis",
+			"<div class=\"control-group\">",
+			"'icon-refresh",
+			"icon-refresh",
+			"gly",
+			"span4",
+			"btn",
+			"container-fluid",
+			"row-fluid",
+			"row",
+			"span10\"",
+			"span2\"",
+			"span8\"",
+			"span6\"",
+			"span",
+			"glyph",
+			"gly",
+			"glyph",
+			"webserver",
+			"org.torquebox.web",
+			"link_to"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"://luxpsqll27\\iks_biz;databaseName=IAM2000_DBPartner",
+			"://luxpsqll26\\iks_vita;databaseName=IAM2000_DBPartner_08",
+			"://luxpsqlg14\\iks_ger;databaseName=IAM2000_DBPartner_09",
+			"://luxpsqll24\\iks_lux1;databaseName=IAM2000_DBPartner_03",
+			"://luxpsqll25\\iks_lux2;databaseName=IAM2000_DBPartner_10",
+			"://luxpsqlg14\\iks_ger;databaseName=IAM2000_DBPartner_01",
+			"_production",
+			"pool: 50",
+			"net.sourceforge.jtds.jdbc.Driver",
+			"",
+			"/",
+			"jdbc:jtds:sqlserver://",
+			"_production",
+			"<div class=\"form-group\">",
+			"'glyphicon glyphicon-refresh",
+			"col-md-4",
+			"btn btn-default",
+			"row",
+			"col-md-10\"",
+			"col-md-2\"",
+			"col-md-8\"",
+			"col-md-6\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 227,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								227,
+								227
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Hi,",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "source/index.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4827,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4703,
+								4703
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 756.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "source/strecke.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2265,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2255,
+								2255
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 294.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "source/ablauf.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1363,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1269,
+								931
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "source/anmeldung.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4085,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3848,
+								3848
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "source/layouts/layout.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3078,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1538,
+								1538
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 264.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "schnitzjagd.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Projects\\ruby\\Ergo\\Ergo.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 386.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
