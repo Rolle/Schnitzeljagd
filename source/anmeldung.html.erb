@@ -13,65 +13,70 @@
 				</div>
 				<div class="panel-body">
 					<p>Die Anmeldung erfolgt über das folgende Formular:</p>
-					<form action="mailto:rolle@rolandschmitt.info" class="form-horizontal" role="form">
+					<form action="http://www.rolandschmitt.info/cgi-bin/selfmail.rb" method="post" class="form-horizontal" role="form">
+
+						<input type="hidden" name="return" value="http://schnitzeljagd.rolandschmitt.info/danke.html">
+						<input type="hidden" name="delimiter" value=": ">
+						<input type="hidden" name="subject" value="Anmeldung">
+
 						<div class="form-group">
 					    	<label for="inputEmail3" class="col-sm-2 control-label">Vorname</label>
-					    	<div class="col-sm-10">
-					      		<input  class="form-control" id="firstname" placeholder="">
+					    	<div class="col-sm-6">
+					      		<input  class="form-control" id="firstname" name="firstname" placeholder="">
 					    	</div>
 				  		</div>
 						<div class="form-group">
 					    	<label for="inputEmail3" class="col-sm-2 control-label">Name</label>
-					    	<div class="col-sm-10">
-					      		<input  class="form-control" id="lastname" placeholder="">
+					    	<div class="col-sm-6">
+					      		<input  class="form-control" id="lastname" name="lastname" placeholder="">
 					    	</div>
 				  		</div>				  		
 					  	<div class="form-group">
 					    	<label for="inputEmail3" class="col-sm-2 control-label">Geburtsdatum</label>
-					    	<div class="col-sm-10">
-					      		<input  class="form-control" id="birthdate" placeholder="">
+					    	<div class="col-sm-4">
+					      		<input  class="form-control" id="birthdate" name="birthdate" placeholder="">
 					    	</div>
 				  		</div>
 				  		<div class="form-group">
 					    	<label for="inputEmail3" class="col-sm-2 control-label">Strasse</label>
-					    	<div class="col-sm-10">
-					      		<input  class="form-control" id="street" placeholder="">
+					    	<div class="col-sm-6">
+					      		<input  class="form-control" id="street" name="street" placeholder="">
 					    	</div>
 				  		</div>
 				  		<div class="form-group">
 					    	<label for="inputEmail3" class="col-sm-2 control-label">Hausnummer</label>
-					    	<div class="col-sm-10">
-					      		<input  class="form-control" id="number" placeholder="">
+					    	<div class="col-sm-2">
+					      		<input  class="form-control" id="number" name="number" placeholder="">
 					    	</div>
 				  		</div>
 						<div class="form-group">
 					    	<label for="inputEmail3" class="col-sm-2 control-label">Postleitzahl</label>
-					    	<div class="col-sm-10">
-					      		<input  class="form-control" id="postcode" placeholder="">
+					    	<div class="col-sm-2">
+					      		<input  class="form-control" id="zipcode" name="zipcode" placeholder="">
 					    	</div>
 				  		</div>
 				  		<div class="form-group">
 					    	<label for="inputEmail3" class="col-sm-2 control-label">Ort</label>
-					    	<div class="col-sm-10">
-					      		<input  class="form-control" id="town" placeholder="">
+					    	<div class="col-sm-6">
+					      		<input  class="form-control" id="town" name="town" placeholder="">
 					    	</div>
 				  		</div>
 				  		<div class="form-group">
 					    	<label for="inputEmail3" class="col-sm-2 control-label">EMail-Adresse</label>
-					    	<div class="col-sm-10">
-					      		<input  type="email" class="form-control" id="email" placeholder="">
+					    	<div class="col-sm-6">
+					      		<input  type="email" class="form-control" name="email" id="email" placeholder="">
 					    	</div>
 				  		</div>
 				  		<div class="form-group">
 					    	<label for="inputEmail3" class="col-sm-2 control-label">Name des Teams</label>
-					    	<div class="col-sm-10">
-					      		<input  class="form-control" id="teamname" placeholder="">
+					    	<div class="col-sm-6">
+					      		<input  class="form-control" id="teamname" name="teamname" placeholder="">
 					    	</div>
 				  		</div>
 				  		<div class="form-group">
 					    	<label for="inputEmail3" class="col-sm-2 control-label">Namen der Teammitglieder</label>
-					    	<div class="col-sm-10">
-					      		<input  class="form-control" id="member" placeholder="">
+					    	<div class="col-sm-6">
+					      		<textarea  class="form-control" id="members" name="members" rows="3" placeholder="z.B. Karl,Otto,Heinz"></textarea>
 					    	</div>
 				  		</div>
 					  	<div class="form-group">
