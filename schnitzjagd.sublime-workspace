@@ -108,19 +108,10 @@
 	"buffers":
 	[
 		{
-			"contents": "Hi,\n\ndas hat einfach technische Gründe.\nEvtl. wurde die 4MB Grenze überschritten, weil ein neuer Fonds angelegt wurde oder es hat sich eine Übersetzung geändert usw.\nDas kann man weder vorab prüfen nocht sonstwie kontrollieren.",
-			"settings":
-			{
-				"buffer_size": 227,
-				"line_ending": "Windows",
-				"name": "Hi,"
-			}
-		},
-		{
 			"file": "source/index.html.erb",
 			"settings":
 			{
-				"buffer_size": 4828,
+				"buffer_size": 4895,
 				"line_ending": "Unix"
 			}
 		},
@@ -128,31 +119,7 @@
 			"file": "source/strecke.html.erb",
 			"settings":
 			{
-				"buffer_size": 2265,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "source/ablauf.html.erb",
-			"settings":
-			{
-				"buffer_size": 1363,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "source/anmeldung.html.erb",
-			"settings":
-			{
-				"buffer_size": 4258,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "source/layouts/layout.erb",
-			"settings":
-			{
-				"buffer_size": 3078,
+				"buffer_size": 2458,
 				"line_ending": "Windows"
 			}
 		}
@@ -188,6 +155,10 @@
 	},
 	"file_history":
 	[
+		"/home/roland/projects/schnitzeljagd/source/layouts/layout.erb",
+		"/home/roland/projects/schnitzeljagd/source/anmeldung.html.erb",
+		"/home/roland/projects/schnitzeljagd/source/ablauf.html.erb",
+		"/home/roland/projects/schnitzeljagd/source/strecke.html.erb",
 		"/C/Projects/ruby/Schnitzeljagd/source/ablauf.html.erb",
 		"/C/Projects/ruby/Schnitzeljagd/source/strecke.html.erb",
 		"/C/Projects/ruby/Schnitzeljagd/source/index.html.erb",
@@ -433,110 +404,24 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 227,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								227,
-								227
-							]
-						],
-						"settings":
-						{
-							"auto_name": "Hi,",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "source/index.html.erb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4828,
+						"buffer_size": 4895,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								293,
-								293
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "source/strecke.html.erb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2265,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2171,
-								1833
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 294.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "source/ablauf.html.erb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1363,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								324,
-								324
+								136,
+								136
 							]
 						],
 						"settings":
@@ -552,20 +437,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "source/anmeldung.html.erb",
-					"semi_transient": false,
+					"buffer": 1,
+					"file": "source/strecke.html.erb",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 4258,
+						"buffer_size": 2458,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4180,
-								4180
+								0,
+								0
 							]
 						],
 						"settings":
@@ -574,40 +459,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 798.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "source/layouts/layout.erb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3078,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1538,
-								1538
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
