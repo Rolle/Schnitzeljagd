@@ -8,10 +8,52 @@
 	<div class="row">
 		<div class="col-md-9" role="main">
 			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h3>Kontaktformular</h3>
+				</div>
 				<div class="panel-body">
-					<p>Fragen und Anregungen könnt ihr loswerden unter <a href="mailto:schnitzeljagd@bergwerk-fell.de">schnitzeljagd@bergwerk-fell.de</a></p>
+					<p>Fragen/Anregungen bitte über unser Kontaktformular:</p>
+					<form action="http://www.rolandschmitt.info/cgi-bin/selfmail.rb" method="post" class="form-horizontal" role="form">
 
-					<p>Während der Veranstaltung ist die Telefonnummer 012/1234567 besetzt, falls sich jemand verfahren hat, es Fragen zu Stationen gibt oder das Flickzeug ausgegangen sein sollte. </p>
+						<input type="hidden" name="return" value="http://schnitzeljagd.rolandschmitt.info/danke_kontakt.html">
+						<input type="hidden" name="delimiter" value=": ">
+						<input type="hidden" name="subject" value="Frage/Anregung">
+						
+						<div class="form-group">
+					    	<label for="inputEmail3" class="col-sm-2 control-label">Vorname</label>
+					    	<div class="col-sm-6">
+					      		<input  class="form-control" id="firstname" name="firstname" placeholder="">
+					    	</div>
+				  		</div>
+						<div class="form-group">
+					    	<label for="inputEmail3" class="col-sm-2 control-label">Name</label>
+					    	<div class="col-sm-6">
+					      		<input  class="form-control" id="lastname" name="lastname" placeholder="">
+					    	</div>
+				  		</div>				  		
+						<div class="form-group">
+					    	<label for="inputEmail3" class="col-sm-2 control-label">EMail</label>
+					    	<div class="col-sm-6">
+					      		<input  class="form-control" id="email" name="email" placeholder="">
+					    	</div>
+				  		</div>	
+				  		<div class="form-group">
+					    	<label for="inputEmail3" class="col-sm-2 control-label">Text</label>
+					    	<div class="col-sm-8">
+					      		<textarea class="form-control" id="text" name="text" rows="8" placeholder=""></textarea>
+					    	</div>
+				  		</div>	
+					  	<div class="form-group">
+					    	<div class="col-sm-offset-2 col-sm-10">
+					      		<button type="submit" class="btn btn-primary">Absenden</button>
+					    	</div>
+					  	</div>
+					</form>
+				</div>
+			</div>		
+			<div class="panel panel-default">
+				<div class="panel-body">
+					<p>Fragen und Anregungen könnt ihr ebenso loswerden, wenn ihr uns eine Mail unter <a href="mailto:schnitzeljagd@bergwerk-fell.de">schnitzeljagd@bergwerk-fell.de</a> sendet.</p>
 				</div>
 			</div>
 		</div>
