@@ -14,6 +14,7 @@
     <%= javascript_include_tag  "jquery.fancybox.pack" %>
     <%= javascript_include_tag  "my" %>
 
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
     <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
   </head>
   
@@ -55,9 +56,9 @@
     <footer class="bs-docs-footer" role="contentinfo">
       <p>Schnitzeljagd 2015</p>
       <p>
-        <a href = "/kontakt.html"><i class="icon-user"></i> <u>Kontakt</u><span class="divider"> | </span>
-        <a href = "/impressum.html"><i class="icon-comment"></i> <u>Impressum</u><span class="divider"> | </span>
-        <a href="mailto:schnitzeljagd@bergwerk-fell.de"><i class="icon-envelope"></i> <u>schnitzeljagd@bergwerk-fell.de</u></a><span class="divider">
+        <a href = "/kontakt.html"><i class="icon-user"></i> Kontakt<span class="divider"> | </span>
+        <a href = "/impressum.html"><i class="icon-comment"></i> Impressum<span class="divider"> | </span>
+        <a href="mailto:schnitzeljagd@bergwerk-fell.de"><i class="icon-envelope"></i> schnitzeljagd@bergwerk-fell.de</a><span class="divider">
       </p>
     </footer>
   </body>
@@ -78,5 +79,6 @@
             return false;
         });
     });
+    $(".fancybox").fancybox();    
   </script>
 </html>

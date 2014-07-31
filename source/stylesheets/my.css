@@ -26,3 +26,8 @@ body {
 .navbar-default .navbar-brand {
 	color: #b5cc06;
 }
+
+.panel-primary>.panel-heading {
+	background-color: #0b688c;
+	border-color: #0b688c;
+}

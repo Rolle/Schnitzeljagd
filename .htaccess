@@ -1,0 +1,4 @@
+AuthUserFile /var/www/schnitzeljagd/.htpasswd
+AuthName "Authorization"
+AuthType Basic
+require valid-user
