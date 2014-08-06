@@ -25,6 +25,7 @@ body {
 .navbar .nav>li>a{color: #b5cc06;}
 .navbar-default .navbar-brand {
 	color: #b5cc06;
+	padding: 0 0 0 0;
 }
 
 .panel-primary>.panel-heading {

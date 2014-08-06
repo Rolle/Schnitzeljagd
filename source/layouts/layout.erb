@@ -8,11 +8,11 @@
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
     <title>MTB-Schnitzeljagd 2015</title>
     
-    <%= stylesheet_link_tag "bootstrap.min", "docs.min", "jquery.fancybox","my"%>
-    <%= javascript_include_tag  "jquery.min" %>
-    <%= javascript_include_tag  "bootstrap.min" %>
-    <%= javascript_include_tag  "jquery.fancybox.pack" %>
-    <%= javascript_include_tag  "my" %>
+    <%= stylesheet_link_tag "bootstrap.min", "docs.min", "jquery.fancybox", "my"%>
+    <%= javascript_include_tag "jquery.min" %>
+    <%= javascript_include_tag "bootstrap.min" %>
+    <%= javascript_include_tag "jquery.fancybox.pack" %>
+    <%= javascript_include_tag "my" %>
 
     <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
     <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
@@ -28,20 +28,24 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">MTB-Schnitzeljagd 2015</a>
+          <!--a class="navbar-brand" href="#"Schnitzeljagd '15</a-->
+          <a class="navbar-brand" href="#"><img src="/images/logo_biker_bergwerk_small.jpg" class="img-responsive"/></a>
         </div>
 
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <nav class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
             <li id="index"><a href="index.html">Event</a></li>
             <li id="strecke"><a href="strecke.html">Strecke</a></li>
-            <li id="ablauf"><a href="ablauf.html">Ablauf/Programm</a></li>
+            <li id="ablauf"><a href="ablauf.html">Ablauf</a></li>
             <li id="anmeldung"><a href="anmeldung.html">Anmeldung</a></li>
+            <li id="anfahrt"><a href="anfahrt.html">Anfahrt</a></li>            
             <li id="kontakt"><a href="kontakt.html">Kontakt</a></li>
-            <li id="anfahrt"><a href="anfahrt.html">Anfahrt</a></li>
+
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
             <li id="impressum"><a href="impressum.html">Impressum</a></li>
           </ul>
-        </div>
+        </nav>
       </div>
     </header>
 

@@ -12,13 +12,14 @@
 					<h3>Anmeldung</h3>
 				</div>
 				<div class="panel-body">
-					<p>Die Anmeldung erfolgt über das folgende Formular:</p>
+					<p>Die Anmeldung erfolgt über das folgende Formular. Damit die Anmeldung wirksam wird, muss die entsprechende Anmeldegebühr (pro Fahrer 10€ unter Angabe von Mail-Adresse und Team-Namen) auf das unten angegebene Konto überwiesen werden. Den Eingang der Anmeldegebühr werden wir per E-Mail bestätigen, daher bitte unbedingt eine gültige Mail-Adresse angeben.</p>
 					<form action="http://www.rolandschmitt.info/cgi-bin/selfmail.rb" method="post" class="form-horizontal" role="form">
 
 						<input type="hidden" name="return" value="http://schnitzeljagd.rolandschmitt.info/danke.html">
 						<input type="hidden" name="delimiter" value=": ">
-						<input type="hidden" name="subject" value="Anmeldung">
+						<input type="hidden" name="subject" value="Schnitzjagd 2015: Anmeldung">
 						<input type="hidden" name="website" value="">
+
 						<div class="form-group">
 					    	<label for="inputEmail3" class="col-sm-2 control-label">Vorname</label>
 					    	<div class="col-sm-6">
@@ -26,38 +27,26 @@
 					    	</div>
 				  		</div>
 						<div class="form-group">
-					    	<label for="inputEmail3" class="col-sm-2 control-label">Name</label>
+					    	<label for="inputEmail3" class="col-sm-2 control-label">Nachname</label>
 					    	<div class="col-sm-6">
 					      		<input  class="form-control" id="lastname" name="lastname" placeholder="">
 					    	</div>
 				  		</div>				  		
-					  	<div class="form-group">
-					    	<label for="inputEmail3" class="col-sm-2 control-label">Geburtsdatum</label>
+				  		<div class="form-group">
+					    	<label for="inputEmail3" class="col-sm-2 control-label">Strasse / Hausnummer</label>
 					    	<div class="col-sm-4">
-					      		<input  class="form-control" id="birthdate" name="birthdate" placeholder="">
-					    	</div>
-				  		</div>
-				  		<div class="form-group">
-					    	<label for="inputEmail3" class="col-sm-2 control-label">Strasse</label>
-					    	<div class="col-sm-6">
 					      		<input  class="form-control" id="street" name="street" placeholder="">
-					    	</div>
-				  		</div>
-				  		<div class="form-group">
-					    	<label for="inputEmail3" class="col-sm-2 control-label">Hausnummer</label>
+					    	</div>					    	
 					    	<div class="col-sm-2">
 					      		<input  class="form-control" id="number" name="number" placeholder="">
 					    	</div>
 				  		</div>
 						<div class="form-group">
-					    	<label for="inputEmail3" class="col-sm-2 control-label">Postleitzahl</label>
+					    	<label for="inputEmail3" class="col-sm-2 control-label">Postleitzahl / Ort</label>
 					    	<div class="col-sm-2">
 					      		<input  class="form-control" id="zipcode" name="zipcode" placeholder="">
-					    	</div>
-				  		</div>
-				  		<div class="form-group">
-					    	<label for="inputEmail3" class="col-sm-2 control-label">Ort</label>
-					    	<div class="col-sm-6">
+					      	</div>
+					    	<div class="col-sm-4">
 					      		<input  class="form-control" id="town" name="town" placeholder="">
 					    	</div>
 				  		</div>
@@ -85,7 +74,6 @@
 					    	</div>
 					  	</div>
 					</form>
-					Die Anmeldung wird erst gültig, nachdem die Startgebühr überwiesen wurde. Wir werden daraufhin eine Email mit der Anmeldebestätigung versenden.
 				</div>
 			</div>
 			<div class="panel panel-primary">
@@ -94,11 +82,6 @@
 				</div>
 				<div class="panel-body">
 					<p>Die Startgebühr beträgt <b>pro Teammitglied 10 Euro</b>. Bitte überweist den entsprechenden Gesamtbetrag für euer Team auf das Konto 1234567 bei der Spasskatze Trier, BLZ 123123123. Wichtig: als Referenz bitte die Mail-Adresse der Registrierung und den Teamnamen angeben, damit wir den Zahlungseingang zuordnen können!</p>
-				</div>
-			</div>
-			<div class="panel panel-primary">
-				<div class="panel-body">
-
 				</div>
 			</div>
 		</div>
@@ -111,5 +94,5 @@
 </div>
 
 <script>
-  enable_top_menu('anmeldung');
+  	enable_top_menu('anmeldung');
 </script>
